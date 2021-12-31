@@ -15,13 +15,11 @@ Then user Skeleton as a normal component
 ```
 
 ### Props
-```
-Prop-Name | Required | Default | Description
---- | --- | --- | ---
-`height` | *true* | **None** | **( Number )Set the hight of the component**
-`width` | *true* | **None** | **( Number ) Set the width of the component**
-`radius` | *false* | **0** | **(Number ) Set a border-radius for the element**
-`rounded` | *false* | **none** | **( Boolean ) Circle-shaped element**
-`animation-duration` | *false* | **1** | **( Number )Set the duration of the linear gradient inside the element**
 
-```
+| Prop Name          | Required | Default | Description                                                               |
+|--------------------|----------|---------|---------------------------------------------------------------------------|
+| height             | true     | none    | (number) Set the height of the element                                    |
+| width              | true     | none    | (number) Set the width of the element                                     |
+| radius             | false    | 0       | (number) Set a border-radius for the element                              |
+| rounded            | false    | false   | (boolean) Make the element circle-shaped                                  |
+| animation-duration | false    | 1       | (number) Set the animation duration of linear gradient inside the element |
