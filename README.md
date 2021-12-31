@@ -1,19 +1,27 @@
 # vueleton
 
-## Project setup
+Light lib for building skeleton loading in vue 3
+
+## Package
 ```
-npm install
+npm i @fateh8687/vueleton@latest
 ```
 
-### Compiles and hot-reloads for development
+### Usage
 ```
-npm run serve
+import { Skeleton } from "@fateh8687/vueleton";
+
+Then user Skeleton as a normal component
 ```
 
-### Compiles and minifies for production
+### Props
 ```
-npm run build
-```
+Prop-Name | Required | Default | Description
+--- | --- | --- | ---
+`height` | *true* | **None** | **( Number )Set the hight of the component**
+`width` | *true* | **None** | **( Number ) Set the width of the component**
+`radius` | *false* | **0** | **(Number ) Set a border-radius for the element**
+`rounded` | *false* | **none** | **( Boolean ) Circle-shaped element**
+`animation-duration` | *false* | **1** | **( Number )Set the duration of the linear gradient inside the element**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```

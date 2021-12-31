@@ -1,6 +1,13 @@
 {
   "name": "@fateh8687/vueleton",
-  "version": "0.11.0",
+  "version": "0.12.0",
+  "author": {
+    "name": "Fateh"
+  },
+  "repository": {
+    "url":"https://github.com/fateh8687/vueleton"
+  },
+  "keywords": ["vue 3 skeleton", "skeleton loading", "vue loading"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
