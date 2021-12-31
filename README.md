@@ -11,7 +11,7 @@ npm i @fateh8687/vueleton@latest
 ```
 import { Skeleton } from "@fateh8687/vueleton";
 
-Then user Skeleton as a normal component
+Then use Skeleton as a normal component
 ```
 
 ### Props
