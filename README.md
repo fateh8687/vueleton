@@ -23,3 +23,4 @@ Then use Skeleton as a normal component
 | radius             | false    | 0       | (number) Set a border-radius for the element                              |
 | rounded            | false    | false   | (boolean) Make the element circle-shaped                                  |
 | animation-duration | false    | 1       | (number) Set the animation duration of linear gradient inside the element |
+| customClass.       | false    | none    | (string) pass a custom class to the element for special cases.            |
