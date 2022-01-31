@@ -1,6 +1,6 @@
 {
   "name": "vueleton",
-  "private":"true",
+  "private":"false",
   "author": "Fateh",
   "version": "1.0.1",
   "repository": {
