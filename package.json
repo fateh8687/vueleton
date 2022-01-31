@@ -1,7 +1,7 @@
 {
-  "name": "vueleton",
+  "name": "@fateh8687/vueleton",
   "author": "Fateh",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "repository": {
     "url": "https://github.com/fateh8687/vueleton"
   },
@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:lib": "vue-cli-service build --target lib --name Vueleton ./src/index.ts"
+    "build:lib": "vue-cli-service build --target lib --name vueleton ./src/index.ts"
   },
   "dependencies": {
     "vue": "^3.2.29",
@@ -32,6 +32,7 @@
   ],
   "files": [
     "dist/js/*.js"
-  ]
-
+  ],
+  "main": "./dist/vueleton.common.js",
+  "module": "./dist/vueleton.common.js"
 }

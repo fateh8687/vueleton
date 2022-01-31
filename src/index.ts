@@ -1,2 +1,4 @@
-export { default as Skeleton } from '@/components/vueleton/Skeleton.vue';
-export { default as CardLayout } from '@/components/vueleton/CardLayout.vue';
+import Skeleton from '../src/components/Skeleton.vue'
+import CardLayout from '../src/components/CardLayout.vue'
+
+export {CardLayout, Skeleton};
