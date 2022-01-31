@@ -1,11 +1,12 @@
 {
   "name": "@fateh8687/vueleton",
   "author": "Fateh",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "repository": {
     "url": "https://github.com/fateh8687/vueleton"
   },
   "description": "Small Skeleton loading for Vue3",
+    
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -31,7 +32,7 @@
     "not dead"
   ],
   "files": [
-    "dist/js/*.js"
+    "dist/**"
   ],
   "main": "./dist/vueleton.common.js",
   "module": "./dist/vueleton.common.js"
