@@ -10,45 +10,38 @@
   ></div>
 </template>
 
-<script lang="ts">
-import { computed, defineComponent } from "vue";
-
-export default defineComponent({
-  name: "Skeleton",
-  props: {
-    width: {
-      type: Number,
-      required: true,
-    },
-    height: {
-      type: Number,
-      required: true,
-    },
-    radius: {
-      type: Number,
-      default: 0,
-    },
-    rounded: {
-      type: Boolean,
-      default: false,
-    },
-    animationDuration: {
-      type: Number,
-      default: 1,
-    },
-    customClass: {
-        type: String,
-        default: ''
-    }
+<script lang="ts" setup>
+import { computed, toRefs } from "vue";
+const props = defineProps({
+  width: {
+    type: Number,
+    required: true,
   },
-
-  setup({ rounded, radius }) {
-    const borderRadius = computed(() =>
-      rounded ? "" : `border-radius: ${radius}px;`
-    );
-    return { borderRadius };
+  height: {
+    type: Number,
+    required: true,
+  },
+  radius: {
+    type: Number,
+    default: 0,
+  },
+  rounded: {
+    type: Boolean,
+    default: false,
+  },
+  animationDuration: {
+    type: Number,
+    default: 1,
+  },
+  customClass: {
+    type: String,
+    default: "",
   },
 });
+const {rounded, radius} = toRefs(props)
+const borderRadius = computed(() =>
+  rounded ? "" : `border-radius: ${radius}px;`
+);
 </script>
 
 <style lang="scss">

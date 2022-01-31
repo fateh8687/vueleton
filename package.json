@@ -1,20 +1,18 @@
 {
-  "name": "@fateh8687/vueleton",
-  "version": "0.12.0",
-  "author": {
-    "name": "Fateh"
-  },
+  "name": "vueleton-monorepo",
+  "private":"true",
+  "author": "Fateh",
   "repository": {
-    "url":"https://github.com/fateh8687/vueleton"
+    "url": "https://github.com/fateh8687/vueleton"
   },
-  "keywords": ["vue 3 skeleton", "skeleton loading", "vue loading"],
+  "description": "Small Skeleton loading for Vue3",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build:lib": "vue-cli-service build --target lib --name Vueleton ./src/index.ts"
   },
   "dependencies": {
-    "vue": "^3.0.0",
+    "vue": "^3.2.29",
     "vue-class-component": "^8.0.0-0",
     "vue-property-decorator": "^9.1.2"
   },
@@ -32,9 +30,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "files": [
-    "dist/*"
-  ],
-  "main": "./dist/Vueleton.common.js",
-  "module": "./dist/Vueleton.common.js"
+  "workspaces":["packages/*"]
 }
